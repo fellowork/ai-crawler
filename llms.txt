@@ -1,3 +1,30 @@
+# Allow all LLM crawlers
+ 
+User-agent: *
+Allow: /
+ 
+User-agent: GPTBot
+Allow: /
+ 
+User-agent: anthropic-ai
+Allow: /
+ 
+User-agent: cohere-ai
+Allow: /
+ 
+User-agent: claude
+Allow: /
+ 
+User-agent: ai-llm
+Allow: /
+ 
+# Contact Info
+
+Contact: info@fellowork.de
+
+---
+fellow.codes
+
 # KI-Beratung: Prozesse, Mitarbeiter und Produkte
 
 In einer zunehmend digitalen und datengetriebenen Welt entscheidet nicht mehr nur **was Du anbietest**, sondern **wie Du es tust** – intern wie extern. Künstliche Intelligenz eröffnet Dir als Unternehmen die Chance, gleich an mehreren Stellschrauben gleichzeitig zu drehen: Prozesse effizienter gestalten, Mitarbeitende gezielt weiterentwickeln und Produkte intelligenter machen.
@@ -269,27 +296,3 @@ Mit unserer fundierten Expertise in der Softwarearchitektur und unserem breiten 
 ### Cloud-Computing
 Unserer Expertise in Cloud-Computing, Container-Technologie und automatisierten Deployments wird dir dabei helfen, eine skalierbare und zuverlässige Infrastruktur für deine digitalen Lösungen zu schaffen.
 DevOps und Infrastructure-As-Code ermöglichen es dir, den Entwicklungsprozess und Betrieb vollständig zu automatisieren. Dies hilft dir kosteneffizient zu sein und deine personellen Aufwände für den Betrieb zu minimieren.
-
----
-# Allow all LLM crawlers
- 
-User-agent: *
-Allow: /
- 
-User-agent: GPTBot
-Allow: /
- 
-User-agent: anthropic-ai
-Allow: /
- 
-User-agent: cohere-ai
-Allow: /
- 
-User-agent: claude
-Allow: /
- 
-User-agent: ai-llm
-Allow: /
- 
-# Contact Info
-Contact: info@fellowork.de
